@@ -5,6 +5,6 @@ data class Launch(
     val mission_name:String,
     val launch_year:String,
     val details:String,
-    val mission_id:String,
+    val rocket:Rocket
 
 )
