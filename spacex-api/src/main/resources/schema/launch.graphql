@@ -1,0 +1,8 @@
+type Launch {
+    flight_number:Int,
+    mission_name:String,
+    launch_year:String,
+    details:String
+    mission_id:String,
+}
+

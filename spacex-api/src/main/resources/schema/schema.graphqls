@@ -1,0 +1,9 @@
+type Query {
+    shows(titleFilter: String):[Show]
+    launches(missionName:String):[Launch]
+}
+
+type Show {
+    title:String
+    releaseYear:Int
+}
