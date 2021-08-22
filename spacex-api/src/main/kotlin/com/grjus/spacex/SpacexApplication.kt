@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SpacexApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpacexApplication>(*args)
+    runApplication<SpacexApplication>(*args)
 }

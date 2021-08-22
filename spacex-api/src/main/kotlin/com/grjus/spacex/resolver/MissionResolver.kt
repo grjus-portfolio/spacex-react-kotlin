@@ -11,13 +11,13 @@ import retrofit2.await
 @DgsComponent
 class MissionResolver {
 
-    suspend fun fetchMission(missionId: String):Mission{
-            return ApiCaller().missionApi.fetchMission(missionId).await()
+    suspend fun fetchMission(missionId: String): Mission {
+        return ApiCaller().missionApi.fetchMission(missionId).await()
 
     }
 
-    suspend fun fetchMissions():List<Mission>{
-            return ApiCaller().missionApi.fetchMissions().await()
+    suspend fun fetchMissions(): List<Mission> {
+        return ApiCaller().missionApi.fetchMissions().await()
 
     }
 

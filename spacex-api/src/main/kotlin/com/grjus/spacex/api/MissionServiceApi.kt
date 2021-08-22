@@ -8,8 +8,8 @@ import retrofit2.http.Path
 interface MissionServiceApi {
 
     @GET("missions")
-    fun fetchMissions():Call<List<Mission>>
+    fun fetchMissions(): Call<List<Mission>>
 
     @GET("missions/{missionId}")
-    fun fetchMission(@Path("missionId") missionId:String):Call<Mission>
+    fun fetchMission(@Path("missionId") missionId: String): Call<Mission>
 }
