@@ -1,6 +1,10 @@
 type Query {
     shows(titleFilter: String):[Show]
     launches(missionName:String):[Launch]
+    launch(flightNumber:Int):Launch
+    missions:[Mission]
+    mission(missionId:String):Mission
+
 }
 
 type Show {
