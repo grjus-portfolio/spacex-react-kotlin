@@ -1,0 +1,8 @@
+type Mission {
+    mission_name:String,
+    mission_id:String,
+    manufacturers:[String],
+    payload_ids:[String],
+    website:String,
+    description:String,
+}
