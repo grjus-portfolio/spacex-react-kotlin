@@ -23,4 +23,10 @@ class ApiCaller {
         .addConverterFactory((GsonConverterFactory.create()))
         .build()
         .create(RocketServiceApi::class.java)
+
+    val capsuleApi:CapsuleServiceApi = Retrofit.Builder()
+        .baseUrl(BASE_URL)
+        .addConverterFactory((GsonConverterFactory.create()))
+        .build()
+        .create(CapsuleServiceApi::class.java)
 }
