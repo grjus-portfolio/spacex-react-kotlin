@@ -4,5 +4,6 @@ type Launch {
     launch_year:String,
     details:String
     rocket:Rocket,
+    rocket_details:RocketDetails
 }
 

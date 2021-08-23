@@ -3,3 +3,14 @@ type Rocket {
     rocket_name:String,
     rocket_type:String,
 }
+
+type RocketDetails {
+    id:Int,
+    active:Boolean,
+    stages:Int,
+    cost_per_launch:Int,
+    first_flight:String,
+    country:String,
+    flickr_images:[String]
+    description:String
+}
