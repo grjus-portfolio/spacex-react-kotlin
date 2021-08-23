@@ -2,7 +2,7 @@ type Capsule{
     capsule_serial:String,
     capsule_id:String,
     status:String,
-    mission:CapsuleMission,
+    missions:[CapsuleMission],
     details:String
 }
 

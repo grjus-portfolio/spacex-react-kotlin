@@ -4,7 +4,7 @@ data class Capsule(
     val capsule_serial:String,
     val capsule_id:String,
     val status:String,
-    val mission:CapsuleMission,
+    val missions:List<CapsuleMission>,
     val details:String
 
 )

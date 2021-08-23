@@ -5,4 +5,5 @@ type Mission {
     payload_ids:[String],
     website:String,
     description:String,
+    capsules:[Capsule]
 }

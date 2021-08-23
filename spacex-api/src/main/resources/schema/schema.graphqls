@@ -4,6 +4,7 @@ type Query {
     launch(flightNumber:Int):Launch
     missions:[Mission]
     mission(missionId:String):Mission
+    capsules:[Capsule]
 
 }
 
